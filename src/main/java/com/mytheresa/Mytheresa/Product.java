@@ -23,7 +23,6 @@ public class Product {
 		category = pCategory;
 		setOriginalPrice(pOriginalPrice);
 		setDiscountPercentage(pDiscountPercentage);
-		updateFinalPrice();
 		currency = "EUR";
 	}
 
